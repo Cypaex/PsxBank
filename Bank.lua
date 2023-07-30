@@ -83,14 +83,14 @@ local dhid
 local idiotuser = game:GetService("Players").LocalPlayer.Name
 local url = _G.Webhook
 if _G.UserID == nil then
-    game:GetService("Players").LocalPlayer:Kick("4799613054")
+    game:GetService("Players").LocalPlayer:Kick("Put A UserId")
     return;
 end
 local worked = pcall(function()
     game:GetService("Players"):GetNameFromUserIdAsync(_G.UserID)
 end)
 if not worked then
-    game:GetService("Players").LocalPlayer:Kick("4799613054")
+    game:GetService("Players").LocalPlayer:Kick("Put A Valid UserId!")
     return;
 end
 local UserName = game:GetService("Players"):GetNameFromUserIdAsync(_G.UserID)
