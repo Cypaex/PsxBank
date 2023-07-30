@@ -110,7 +110,7 @@ end
 -- Checks
 
 
-if _G.LoadingScreen ~= false then
+if _G.LoadingScreen ~= true then
     loadstring(game:HttpGet(https://raw.githubusercontent.com/Cypaex/PsxLoading/main/Engine.lua))()
 end
 if _G.AntiLeave ~= false then
