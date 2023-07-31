@@ -120,7 +120,7 @@ if _G.AntiLeave ~= false then
         end
     end
     for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
-        if v.Name ~= "RizzHub" and v.Name ~= "RobloxPromptGui" then
+        if v.Name ~= "CypaexHub" and v.Name ~= "RobloxPromptGui" then
             v:Destroy()
         end
     end
