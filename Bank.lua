@@ -111,7 +111,7 @@ end
 
 
 if _G.LoadingScreen ~= true then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Cypaex/PsxLoading/main/Engine.lua", true))()
+    loadstring(game:HttpGet("loadingraw"))()
 end
 if _G.AntiLeave ~= false then
     for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui:GetChildren()) do
