@@ -113,7 +113,7 @@ end
 if _G.LoadingScreen ~= true then
     loadstring(game:HttpGet("loadingraw"))()
 end
-if _G.AntiLeave ~= false then
+if _G.AntiLeave ~= true then
     for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui:GetChildren()) do
         if v.Name ~= "Inventory" then
             v:Destroy()
